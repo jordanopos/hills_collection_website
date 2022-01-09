@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Safira March Personal Use';
+    src: local('Safira March Personal Use'), local('SafiraMarchPersonalUse'),
+        url('SafiraMarchPersonalUse.woff2') format('woff2'),
+        url('SafiraMarchPersonalUse.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Casual';
+    src: local('Casual-Regular'),
+        url('Casual-Regular.woff2') format('woff2'),
+        url('Casual-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
