@@ -8,9 +8,13 @@ export default function BestSellerProducts() {
         { "__typename": "Product", "id": "2", "title": "Hublot Controller", "image": "https://htmldemo.hasthemes.com/ruiz/ruiz/assets/images/product/product-07.png", "details": "this is another cool product man", "price": "50,000", "created_at": "1641661038663" },
     ]
     return (
-        <div className="px-10 pt-5">
-            <h1 className="mb-4 mt-4 font-bold text-md">Best Selling</h1>
-            {products.map((product) => (<SmallProductView product={product} />))}
+        <div className="px-10 pt-10">
+              <h1 className="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">Best Selling</h1>
+           <div className="flex flex-col md:grid md:grid-cols-4">
+
+               {products.map((product) => (<SmallProductView product={product} />))}
+               </div> 
+
         </div>
     );
 }
