@@ -10,8 +10,10 @@ export default function NavBar() {
             </div>
 
             <div className="flex mr-10">
-                <a href="https://google.com" className=""><FontAwesome.FaWhatsapp className="mr-4" size={23} /></a>
-                <FontAwesome.FaShoppingBag size={23} />
+                <a href="https://google.com" target="_blank" className=""><FontAwesome.FaWhatsapp className="mr-4" size={23} /></a>
+                <a href="https://flutterwave.com/store/hillscollection" target="_blank">
+                    <FontAwesome.FaShoppingBag size={23} />
+                </a>
             </div>
 
         </div>
