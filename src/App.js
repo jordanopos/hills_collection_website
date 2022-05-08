@@ -1,5 +1,4 @@
 import './App.css';
-import BannserSection2 from './components/banner';
 import BestSellerProducts from './components/best_seller';
 import Hero from './components/hero';
 import Aos from 'aos';
@@ -10,15 +9,14 @@ import { useEffect } from 'react';
 import NavBar from './components/navbar';
 import Testimonial from './components/testimonial';
 import { ApolloProvider } from "@apollo/client"
-import FullProductScreen from './components/full_product_screen';
 import aboutImage from "./assets/hills_collection_about.jpeg"
-import AboutComponent from './components/about';
+import WhyHillsCollection from './components/why_hills_collection';
 import ContactUs from './components/contact_us';
-import SocialMedia from './components/socail_media';
+import FounderMessage from './components/founder';
 import NewsLetter from './components/newsletter';
+import AboutUs from './components/about_us';
 
 function App() {
-
   useEffect(() => {
     Aos.init({ duration: 2000 })
   }, [])
@@ -27,23 +25,27 @@ function App() {
       <div className="h-screen w-screen bg-white font-casual">
 
         <NavBar />
-
         <div data-aos="fade-up">
           <Hero />
         </div>
 
 
         <div data-aos="fade-left">
-          <AboutComponent />
+          <WhyHillsCollection />
         </div>
 
 
-
+         
         <img className='px-10 pt-10 block md:hidden' data-aos="fade-right" src={aboutImage} alt="about hills collection" />
 
 
         <div data-aos="fade-right">
           <BestSellerProducts />
+        </div>
+
+
+        <div data-aos="fade-left">
+          <AboutUs/>
         </div>
 
 
@@ -72,16 +74,18 @@ function App() {
           </div>
         </section>
 
-        <SocialMedia />
 
+        <FounderMessage />
+
+        <div data-aos="fade-up">
+          <ContactUs />
+        </div>
 
         <div data-aos="fade-right">
           <NewsLetter />
         </div>
 
-        <div data-aos="fade-up">
-          <ContactUs />
-        </div>
+      
 
         <div data-aos="">
           <Footer />

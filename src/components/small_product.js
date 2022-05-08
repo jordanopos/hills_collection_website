@@ -5,7 +5,7 @@ export default function SmallProductView({ product }) {
 
 
   let launch = ()=>{
-    window.open("https://flutterwave.com/store/hillscollection","_blank")
+    window.open("https://flutterwave.com/store/hillscollectionug","_blank")
   }
  
   return (
