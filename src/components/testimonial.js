@@ -9,11 +9,11 @@ export default function Testimonial() {
           <div className="flex flex-wrap -m-4">
             <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
               <div className="h-full text-center">
-                <img
+                {/* <img
                   alt="testimonial"
                   className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
                   src="https://dummyimage.com/302x302"
-                />
+                /> */}
                 <p className="leading-relaxed font-sans">
                   The Watch is durable and nice. Have had no issues with it. I'd
                   appreciate if a payment option we're put in place though that
@@ -28,17 +28,17 @@ export default function Testimonial() {
             </div>
             <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
               <div className="h-full text-center">
-                <img
+                {/* <img
                   alt="testimonial"
                   className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
                   src="https://dummyimage.com/300x300"
-                />
+                /> */}
                 <p className="leading-relaxed font-sans">
                   I purchased an Emporio Armani watch from Hills Collection and
-                  I can give three words to describe thier products. Authentic,
-                  classy and attractive. So there is no doubt as to the quality
-                  of their products or their service. I would definitely
-                  recommend
+                  I can give three words to describe their products authentic,
+                  classy and attractive. I was impressed not only with the
+                  quality but the general professionalism and care that they
+                  give to every customer. I’d definitely recommend them.
                 </p>
                 <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
                 <h2 className="text-gray-300 font-sans font-medium title-font tracking-wider text-sm">
@@ -49,12 +49,15 @@ export default function Testimonial() {
             </div>
             <div className="lg:w-1/3 lg:mb-0 p-4">
               <div className="h-full text-center">
-                <img
+                {/* <img
                   alt="testimonial"
                   className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
                   src="https://dummyimage.com/305x305"
-                />
-                <p className="leading-relaxed font-sans">Great customer service. Good advice on what product to buy. Great quality products. </p>
+                /> */}
+                <p className="leading-relaxed font-sans">
+                  Great customer service. Good advice on what product to buy.
+                  Great quality products.{" "}
+                </p>
                 <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
                 <h2 className="text-gray-300 font-sans font-medium title-font tracking-wider text-sm">
                   Phillis

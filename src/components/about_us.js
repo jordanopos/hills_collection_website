@@ -5,10 +5,11 @@ export default function AboutUs() {
         About Hills Collection
       </h1>
       <p className="px-3 pt-3 font-sans text-gray-600 text-center text-base">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer viverra
-        rhoncus felis quis posuere.Morbi nec porttitor ligula. Vestibulum et
-        mauris non mi viverra fringilla. Aliquam placerat ligula lorem, non
-        varius urna cursus sit amet
+        We aim at elevating the confidence and happiness of our clients through
+        the sale of high-quality, genuine products that create long-lasting
+        impressions. With a wide range of brands to offer at good prices. We
+        have worked with brands like Komunoballo (a Budo league football team)
+        as a sponsor, Kreate and many more
       </p>
     </div>
   );

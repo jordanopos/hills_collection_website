@@ -4,8 +4,8 @@ export default function BestSellerProducts() {
 
 
     const products = [
-        { "__typename": "Product", "id": "1", "title": "Rolex Aventador", "image": "https://htmldemo.hasthemes.com/ruiz/ruiz/assets/images/product/product-06.png", "details": "this is another cool product man", "price": "300,000", "created_at": "1641661038663" },
-        { "__typename": "Product", "id": "2", "title": "Hublot Controller", "image": "https://htmldemo.hasthemes.com/ruiz/ruiz/assets/images/product/product-07.png", "details": "this is another cool product man", "price": "500,000", "created_at": "1641661038663" },
+        { "__typename": "Product", "id": "1", "title": "The Vintage Rose Gold Casio Illuminator Watch", "image": "https://cdn.filestackcontent.com/resize=width:399,height:399,fit:crop,align:center/ss4dFdOUTeGRML1ubY4s", "details": "this is another cool product man", "price": "250,000", "created_at": "1641661038663" },
+        { "__typename": "Product", "id": "2", "title": "Women's Rose Gold Michael Kors Darci Watch", "image": "https://cdn.filestackcontent.com/resize=width:430,height:430,fit:crop,align:center/H3afBGuORg68nVbrapLM", "details": "this is another cool product man", "price": "350,000", "created_at": "1641661038663" },
     ]
     return (
         <div className="px-10 pt-10">

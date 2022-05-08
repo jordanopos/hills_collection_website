@@ -72,7 +72,7 @@ export default function ContactUs() {
 function SocialAuthContainer({ name, image, href }) {
   return (
     <a href={href}   target={"_blank"}>
-      <div className="bg-gold font-safira mx-10 h-24 rounded my-6 flex px-5 items-center justify-center">
+      <div className="bg-gold font-sans mx-10 h-24 rounded my-6 flex px-5 items-center justify-center">
         {image}
         <div className="text-white ml-4 text-lg">{name}</div>
       </div>
